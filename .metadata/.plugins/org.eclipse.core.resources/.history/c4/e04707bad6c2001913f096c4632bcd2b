@@ -1,0 +1,29 @@
+
+public class Main {
+public static void main(String[] args) {
+
+
+
+Pessoa pessoa1 = new Pessoa(1, "Izabela", 21, "feminino");
+
+Pessoa pessoa2 = new Pessoa(2, "Gabriel", 22, "masculino");
+
+Pessoa pessoa3 = new Pessoa(3, "Maria", 12, "feminino");
+
+Endereco endereco1 = new Endereco(1, "Rua vinte de agosto", 190, "Brejaru");
+
+Endereco endereco2 = new Endereco(2, "Rua Mario Quinta", 760, "Jardim Eldorado");
+
+Endereco endereco3 = new Endereco(3, "Rua dos pinheiros", 001, "Campinas");
+
+
+
+
+System.out.println("O nome da pessoa1 é " + pessoa1.getNome() + ", ela tem " + pessoa1.getIdade() + " anos e é do sexo: " + pessoa1.getSexo() + ". " + "Ela mora no bairro: " + endereco1.getBairro() + ", na rua: " + endereco1.getRua() + " N#" + endereco1.getNumero());
+
+
+
+
+
+}
+}
